@@ -7,6 +7,7 @@
  *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
+ *   Translator: My-BB.IR Group
  *
  *   NewPoints plugin for MyBB - A complex but efficient points system for MyBB.
  *

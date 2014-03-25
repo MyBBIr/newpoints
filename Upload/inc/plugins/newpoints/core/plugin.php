@@ -32,8 +32,8 @@ if(!defined("IN_MYBB"))
 function newpoints_plugin_info()
 {
 	return array(
-		"name"			=> "NewPoints",
-		"description"	=> "NewPoints is a complex but efficient points system for MyBB.",
+		"name"			=> "امتیازات",
+		"description"	=> "پلاگین امتیازات یک پلاگین پیچیده اما کارآمد برای مای‌بی‌بی است.<br /> ترجمه به‌دست: <a href=\"http://my-bb.ir\" target=\"_blank\">گروه مای‌بی‌بی فارسی</a>",
 		"website"		=> "http://www.consoleaddicted.com",
 		"author"		=> "Pirata Nervo",
 		"authorsite"	=> "http://www.mybb-plugins.com",
