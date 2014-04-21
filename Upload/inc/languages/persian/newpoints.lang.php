@@ -61,6 +61,6 @@ $l['newpoints_amount_paid'] = 'مبلغ پرداخت شده';
 $l['newpoints_source'] = 'کار';
 $l['newpoints_home_desc'] = '«سیستم امتیازات» یک سیستم پیشرفته برای امتیاز‌دهی انجمن ساز مای‌بی‌بی است.<br />همان‌گونه که می‌بینید، در سمت راست گزینه‌های متنوعی وجود‌دارد که می‌توانید از آن استفاده کنید.<br /><br /><strong>چگونه می‌توانید کسب درآمد کنید?</strong><br /><table align="center"><tr><td align="left"><strong>کار</strong></td><td align="right"><strong>امتیاز</strong></td></tr>{1}</table><br /><br />اگر پرسشی دارید با مدیریت تماس بگیرید.<br />این نرم‌افزار توسط <a href="http://forums.mybb-plugins.com/user-1.html">Pirata Nervo</a> برای <a href="http://mybboard.net">MyBB</a> نوشته شده‌است و توسط <a href="http://my-bb.ir" target="_blank">گروه مای‌بی‌بی فارسی</a> به زبان فارسی ترجمه شده‌است.';
 $l['newpoints_action'] = 'کار';
-$l['newpoints_chars'] = 'کاراکتر‌ها';
+$l['newpoints_chars'] = 'حرف';
 
 ?>

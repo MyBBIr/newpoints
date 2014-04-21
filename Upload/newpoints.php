@@ -7,7 +7,7 @@
  *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
- *   Translator: My-BB.IR Group
+ *   Translator: http://My-BB.IR Group
  *
  *   NewPoints plugin for MyBB - A complex but efficient points system for MyBB.
  *
@@ -104,7 +104,7 @@ if (!$mybb->input['action'])
 		else
 			$value = newpoints_format_points($setting['value']);
 
-		$income_settings .= '<tr><td valign="middle" align="left"><span style="border-bottom: 1px dashed; cursor: help;" title="'.$setting['description'].'">'.$setting['title'].'</span></td><td valign="middle" align="right">'.$value.'</td></tr>';
+		$income_settings .= '<tr><td valign="middle" align="right"><span style="border-bottom: 1px dashed; cursor: help;" title="'.$setting['description'].'">'.$setting['title'].'</span></td><td valign="middle" align="left">'.$value.'</td></tr>';
 	}
 	
 	$lang->newpoints_home_desc = $lang->sprintf($lang->newpoints_home_desc, $income_settings);
