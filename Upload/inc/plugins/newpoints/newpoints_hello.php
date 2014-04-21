@@ -3,7 +3,7 @@
  *
  *   NewPoints Hello plugin (/inc/plugins/newpoints/newpoints_hello.php)
  *	 Author: Pirata Nervo
- *   Copyright: � 2009-2011 Pirata Nervo
+ *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
  *
@@ -48,8 +48,8 @@ function newpoints_hello_info()
 	 * compatibility: A CSV list of MyBB versions supported. Ex, "121,123", "12*". Wildcards supported.
 	 */
 	return array(
-		"name"			=> "Hello World!",
-		"description"	=> "A sample plugin that prints hello world depending on the settings.",
+		"name"			=> "سلام دنيا!",
+		"description"	=> "افزونه‌ی نمونه که تنظیماتی را برای نمایش متن سلام دنیا به تنظیمات اضافه می‌کند.",
 		"website"		=> "http://www.consoleworld.net",
 		"author"		=> "Pirata Nervo",
 		"authorsite"	=> "http://www.mybb-plugins.com",
@@ -104,7 +104,7 @@ function newpoints_hello_activate()
 	global $db, $mybb;
 	// add settings
 	// take a look at inc/plugins/newpoints.php to know exactly what each parameter means
-	newpoints_add_setting('newpoints_hello_show', 'newpoints_hello', 'Show message', 'Set to yes if you want to show the hello message on every page.', 'yesno', 1, 1);
+	newpoints_add_setting('newpoints_hello_show', 'newpoints_hello', 'نمایش متن', 'اگر روی بله باشد متن سلام‌دنیا را در همه‌ی صفحات شما نمایش می‌دهد.', 'yesno', 1, 1);
 	rebuild_settings();
 }
 /*

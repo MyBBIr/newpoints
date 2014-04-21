@@ -35,8 +35,8 @@ if (!defined('IN_ADMINCP'))
 function upgrade12_info()
 {
 	return array('new_version' => '1.2',
-				 'name' => 'Upgrade to 1.2',
-				 'description' => 'Upgrade NewPoints 1.1 to NewPoints 1.2.<br />Note that all forums and group rules will be deleted.'
+				 'name' => 'بروزرسانی به 1.2',
+				 'description' => 'بروزرسانی سیستم امتیازات از  1.1 به سیتسم امتیازات نسخه‌ی 1.2.<br />نکته: تمام دستورالعمل‌های انجمن‌ها و گروه‌ها حذف خواهند شد.'
 				 );
 }
 
