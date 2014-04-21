@@ -3,9 +3,10 @@
  *
  *   NewPoints plugin (/inc/languages/newpoints.lang.php)
  *	 Author: Pirata Nervo
- *   Copyright: � 2009-2011 Pirata Nervo
+ *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
+ *   Translate By: My-BB.Ir
  *
  *   NewPoints plugin for MyBB - A complex but efficient points system for MyBB.
  *
@@ -26,40 +27,40 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************/
 
-$l['newpoints'] = "NewPoints";
-$l['newpoints_home'] = 'Home';
-$l['newpoints_menu'] = 'Menu';
-$l['newpoints_donate'] = 'Donate';
-$l['newpoints_donated'] = 'You have successfully donated {1} to the selected user.';
-$l['newpoints_user'] = 'User';
-$l['newpoints_user_desc'] = 'Enter the user name of the user you want to send a donation.';
-$l['newpoints_amount'] = 'Amount';
-$l['newpoints_amount_desc'] = 'Enter the amount of points you want to send to the user.';
-$l['newpoints_reason'] = 'Reason';
-$l['newpoints_reason_desc'] = '(Optional) Enter a reason for the donation.';
-$l['newpoints_submit'] = 'Submit';
-$l['newpoints_donate_subject'] = 'New donation';
-$l['newpoints_donate_message'] = 'Hello, I\'ve just sent you a donation of {1}.';
-$l['newpoints_donate_message_reason'] = 'Hello, I\'ve just sent you a donation of {1}. Reason:[quote]{2}[/quote]';
-$l['newpoints_donations_disabled'] = 'Donations have been disabled by the administrator.';
-$l['newpoints_cant_donate_self'] = 'You can\'t send a donation to yourself.';
-$l['newpoints_invalid_amount'] = 'You have entered an invalid amount of points.';
-$l['newpoints_invalid_user'] = 'You have entered an invalid user name.';
+$l['newpoints'] = "امتیازات";
+$l['newpoints_home'] = 'خانه';
+$l['newpoints_menu'] = 'منو';
+$l['newpoints_donate'] = 'اهدا هدیه';
+$l['newpoints_donated'] = 'شما با موفقیت به مقدار {1} به کاربر انتخاب شده هدیه دادید.';
+$l['newpoints_user'] = 'کاربر';
+$l['newpoints_user_desc'] = 'نام‌کاربری کاربری که می‌خواهید به او هدیه دهید را وارد کنید..';
+$l['newpoints_amount'] = 'مقدار';
+$l['newpoints_amount_desc'] = 'مقدار امتیازی که می‌خواهید به کاربر هدیه‌دهید را وارد نمائید.';
+$l['newpoints_reason'] = 'دلیل';
+$l['newpoints_reason_desc'] = '(اختیاری) دلیل این هدیه‌را وارد فرمایید.';
+$l['newpoints_submit'] = 'ثبت';
+$l['newpoints_donate_subject'] = 'هدیه‌ی جدید';
+$l['newpoints_donate_message'] = 'سلام، من به مقدار {1} برای تو هدیه ارسال کرده‌ام.';
+$l['newpoints_donate_message_reason'] = 'سلام، من به مقدار {1} برای تو هدیه  ارسال کرده‌ام. دلیل:[quote]{2}[/quote]';
+$l['newpoints_donations_disabled'] = 'هدیه‌دادن توسط مدیریت غیرفعال شده‌است.';
+$l['newpoints_cant_donate_self'] = 'شما نمی‌توانید برای خودتان هدیه ارسال کنید.';
+$l['newpoints_invalid_amount'] = 'شما مقدار نامعتبری امتیاز را وارد کرده‌اید.';
+$l['newpoints_invalid_user'] = 'شما نام کاربری نامعتبری را وارد کرده اید.';
 $l['newpoints_donate_log'] = '{1}-{2}-{3}';
-$l['newpoints_stats_disabled'] = 'Statistics have been disabled by the administrator.';
-$l['newpoints_statistics'] = 'Statistics';
-$l['newpoints_richest_users'] = 'Richest Users';
-$l['newpoints_last_donations'] = 'Last Donations';
-$l['newpoints_from'] = 'From';
-$l['newpoints_to'] = 'To';
-$l['newpoints_noresults'] = 'No results found.';
-$l['newpoints_date'] = 'Date';
-$l['newpoints_not_enough_points'] = 'You don\'t have enough points. Required: {1}';
-$l['newpoints_task_ran'] = 'Backup NewPoints task ran';
-$l['newpoints_amount_paid'] = 'Amount Paid';
-$l['newpoints_source'] = 'Source';
-$l['newpoints_home_desc'] = 'NewPoints is a complex points system for MyBB software.<br />As you can see, there are various options on the menu on the left that you can use.<br /><br /><strong>How do you earn points?</strong><br /><table align="center"><tr><td align="left"><strong>Source</strong></td><td align="right"><strong>Amount Paid</strong></td></tr>{1}</table><br /><br />Contact your administrator if you have any questions.<br />This software was written by <a href="http://forums.mybb-plugins.com/user-1.html">Pirata Nervo</a> for <a href="http://mybboard.net">MyBB</a>.';
-$l['newpoints_action'] = 'Action';
-$l['newpoints_chars'] = 'Chars';
+$l['newpoints_stats_disabled'] = 'آمار توسط مدیریت سایل غیرفعال شده‌است.';
+$l['newpoints_statistics'] = 'آمار و ارقام';
+$l['newpoints_richest_users'] = 'ثروت‌مند ترین کاربران';
+$l['newpoints_last_donations'] = 'آخرین هدیه‌ها';
+$l['newpoints_from'] = 'از';
+$l['newpoints_to'] = 'به';
+$l['newpoints_noresults'] = 'هیچ نتیجه‌ای یافت نشد';
+$l['newpoints_date'] = 'تاریخ';
+$l['newpoints_not_enough_points'] = 'شما به مقدار نیاز امتیاز ندارید. مورد نیاز: {1}';
+$l['newpoints_task_ran'] = 'وظیفه‌ی پشتیبان‌گیری از امتیازات انجام شد.';
+$l['newpoints_amount_paid'] = 'مبلغ پرداخت شده';
+$l['newpoints_source'] = 'کار';
+$l['newpoints_home_desc'] = '«سیستم امتیازات» یک سیستم پیشرفته برای امتیاز‌دهی انجمن ساز مای‌بی‌بی است.<br />همان‌گونه که می‌بینید، در سمت راست گزینه‌های متنوعی وجود‌دارد که می‌توانید از آن استفاده کنید.<br /><br /><strong>چگونه می‌توانید کسب درآمد کنید?</strong><br /><table align="center"><tr><td align="left"><strong>کار</strong></td><td align="right"><strong>امتیاز</strong></td></tr>{1}</table><br /><br />اگر پرسشی دارید با مدیریت تماس بگیرید.<br />این نرم‌افزار توسط <a href="http://forums.mybb-plugins.com/user-1.html">Pirata Nervo</a> برای <a href="http://mybboard.net">MyBB</a> نوشته شده‌است و توسط <a href="http://my-bb.ir" target="_blank">گروه مای‌بی‌بی فارسی</a> به زبان فارسی ترجمه شده‌است.';
+$l['newpoints_action'] = 'کار';
+$l['newpoints_chars'] = 'کاراکتر‌ها';
 
 ?>
