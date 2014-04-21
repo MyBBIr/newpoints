@@ -6,6 +6,7 @@
  *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
+ *   Translator: http://my-bb.ir
  *
  *   A hello world plugin for NewPoints.
  *
