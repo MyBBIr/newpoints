@@ -27,6 +27,6 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************/
 
-$l['newpoints_hello_message'] = "<p>Hello World!<br />This is a sample NewPoints plugin that displays this message on all pages. As you can see, it works just like MyBB plugins do.</p>";
+$l['newpoints_hello_message'] = "<p>سلام دنیا!<br />این یک پلاگین نمونه برای سیستم امتیازات هست که متنی را در تمام صفحات انجمن شما نمایش می‌دهد.</p>";
 
 ?>
