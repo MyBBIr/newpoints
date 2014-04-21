@@ -6,6 +6,7 @@
  *   Copyright: © 2009-2011 Pirata Nervo
  *   
  *   Website: http://www.mybb-plugins.com
+ *   Translate By: http://my-bb.ir
  *
  *   NewPoints plugin for MyBB - A complex but efficient points system for MyBB.
  *
@@ -26,24 +27,24 @@
 	along with this program.  If not, see <http://www.gnu.org/licenses/>.
 ****************************************************************************/
 
-$l['newpoints'] = "NewPoints";
+$l['newpoints'] = "امتیازات";
 
-$l['nav_plugins'] = "Plugins";
-$l['nav_settings'] = "Settings";
-$l['nav_log'] = "Log";
-$l['nav_maintenance'] = "Maintenance";
-$l['nav_forumrules'] = "Forum Rules";
-$l['nav_grouprules'] = "Group Rules";
-$l['nav_stats'] = "Statistics";
-$l['nav_upgrades'] = "Upgrades";
+$l['nav_plugins'] = "افزونه‌ها";
+$l['nav_settings'] = "تنظیمات";
+$l['nav_log'] = "کارنامه";
+$l['nav_maintenance'] = "تعمیر و نگه‌داری";
+$l['nav_forumrules'] = "دستورات انجمن";
+$l['nav_grouprules'] = "دستورات گروه‌ها";
+$l['nav_stats'] = "آمار و ارقام";
+$l['nav_upgrades'] = "بروزرسانی‌ها";
 
-$l['can_manage_newpoints'] = "Can Manage NewPoints?";
-$l['can_manage_settings'] = "Can Manage Settings?";
-$l['can_manage_log'] = "Can Manage Log?";
-$l['can_manage_maintenance'] = "Can Manage Maintenance?";
-$l['can_manage_forumrules'] = "Can Manage Forum Rules?";
-$l['can_manage_grouprules'] = "Can Manage Group Rules?";
-$l['can_manage_stats'] = "Can Manage Statistics?";
-$l['can_manage_upgrades'] = "Can Manage Upgrades?";
+$l['can_manage_newpoints'] = "بتواند امتیازات را مدیریت کند؟";
+$l['can_manage_settings'] = "بتواند تنظیمات را مدیریت کند؟";
+$l['can_manage_log'] = "بتواند کارنامه‌ها را مدیریت کند؟";
+$l['can_manage_maintenance'] = "بتواند ابزار تعمیر و نگه‌داری را مدیریت کند؟";
+$l['can_manage_forumrules'] = "بتواند دستورات انجمن را مدیریت کند؟";
+$l['can_manage_grouprules'] = "بتواند دستورات گروه‌ها را مدیریت کند؟";
+$l['can_manage_stats'] = "بتواند آمار و ارقام را مدیریت کند؟";
+$l['can_manage_upgrades'] = "بتواند بروزرسانی‌ها را مدیریت کند؟";
 
 ?>
