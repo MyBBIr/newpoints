@@ -108,31 +108,31 @@ function newpoints_plugin_install()
 	}
 	
 	// add settings
-	newpoints_add_setting('newpoints_main_enabled', 'main', 'Is NewPoints enabled?', 'Set to no if you want to disable NewPoints.', 'yesno', 1, 1);
-	newpoints_add_setting('newpoints_main_curname', 'main', 'Currency Name', 'Enter a name for the currency.', 'text', 'Points', 2);
-	newpoints_add_setting('newpoints_main_curprefix', 'main', 'Currency Prefix', 'Enter what you want to display before the number of points.', 'text', '', 3);
-	newpoints_add_setting('newpoints_main_cursuffix', 'main', 'Currency Suffix', 'Enter what you want to display after the number of points.', 'text', '€', 4);
-	newpoints_add_setting('newpoints_main_decimal', 'main', 'Decimal Places', 'Number of decimals to be used.', 'text', '2', 5);
-	newpoints_add_setting('newpoints_main_statsvisible', 'main', 'Statistics visible to users?', 'Set to no if you do not want users to view the statistics.', 'yesno', 1, 6);
-	newpoints_add_setting('newpoints_main_donationsenabled', 'main', 'Donations enabled?', 'Set to no if you want to disable donations.', 'yesno', 1, 7);
-	newpoints_add_setting('newpoints_main_donationspm', 'main', 'Send a PM on donate?', 'Do you want it to automatically send a new private message to a user receiving a donation?', 'yesno', 1, 8);
-	newpoints_add_setting('newpoints_main_stats_lastdonations', 'main', 'Last donations', 'Number of last donations to show.', 'text', 10, 9);
-	newpoints_add_setting('newpoints_main_stats_richestusers', 'main', 'Richest Users', 'Number of richest users to show.', 'text', 10, 9);
+	newpoints_add_setting('newpoints_main_enabled', 'main', 'سیستم امتیازات فعال باشد؟', 'اگر می‌خواهید سیستم امتیازات را غیرفعال کنید روی خیر قرار دهید.', 'yesno', 1, 1);
+	newpoints_add_setting('newpoints_main_curname', 'main', 'نام پول', 'نامی را برای پول وارد کنید.', 'text', 'امتیاز', 2);
+	newpoints_add_setting('newpoints_main_curprefix', 'main', 'پیشوند پول', 'چیزی که می‌خواهید قبل از عدد پول نمایش داده شود را وارد کنید', 'text', '', 3);
+	newpoints_add_setting('newpoints_main_cursuffix', 'main', 'پسوند پول', 'چیزی که می‌خواهید بعد از عدد پول نمایش داده شود را وارد کنید.', 'text', '﷼', 4);
+	newpoints_add_setting('newpoints_main_decimal', 'main', 'رقم اعشار', 'تعداد رقم اعشار مورد استفاده را وارد کنید.', 'text', '2', 5);
+	newpoints_add_setting('newpoints_main_statsvisible', 'main', 'آمار و ارقام برای کاربران نمایش داده شود؟', 'اگر نمی‌خواهید کاربران آمار را ببینید روی خیر قرار دهید.', 'yesno', 1, 6);
+	newpoints_add_setting('newpoints_main_donationsenabled', 'main', 'اهدا هدیه فعال باشد؟', 'اگر می‌خواهید اهدا هدیه غیرفعال باشد روی خیر قرار دهید', 'yesno', 1, 7);
+	newpoints_add_setting('newpoints_main_donationspm', 'main', 'ارسال پیام خصوصی برای اهدا هدیه؟', 'آیا می‌خواهید که بعد از هر اهدا هدیه به کاربری که هدیه دریافت کرده‌است یک پیام خصوصی ارسال شود؟', 'yesno', 1, 8);
+	newpoints_add_setting('newpoints_main_stats_lastdonations', 'main', 'آخرین هدیه‌ها', 'چندتا از آخرین هدیه‌ها را نمایش دهد؟', 'text', 10, 9);
+	newpoints_add_setting('newpoints_main_stats_richestusers', 'main', 'ثروتمندترین کاربران', 'چندتا از ثروت‌مندترین کاربران را نمایش دهد؟', 'text', 10, 9);
 	
 	// income settings
-	newpoints_add_setting('newpoints_income_newpost', 'income', 'New Post', 'Amount of points received on new post.', 'text', '10', 1);
-	newpoints_add_setting('newpoints_income_newthread', 'income', 'New Thread', 'Amount of points received on new thread.', 'text', '20', 2);
-	newpoints_add_setting('newpoints_income_newpoll', 'income', 'New Poll', 'Amount of points received on new poll.', 'text', '15', 3);
-	newpoints_add_setting('newpoints_income_perchar', 'income', 'Per Character', 'Amount of points received per character (in new thread and new post).', 'text', '0.01', 4);
-	newpoints_add_setting('newpoints_income_minchar', 'income', 'Minimum Characters', 'Minimum characters required in order to receive the amount of points per character.', 'text', '15', 5);
-	newpoints_add_setting('newpoints_income_newreg', 'income', 'New Registration', 'Amount of points received by the user when registering.', 'text', '50', 6);
-	newpoints_add_setting('newpoints_income_pervote', 'income', 'Per Poll Vote', 'Amount of points received by the user who votes.', 'text', '5', 7);
-	newpoints_add_setting('newpoints_income_perreply', 'income', 'Per Reply', 'Amount of points received by the author of the thread, when someone replies to it.', 'text', '2', 8);
-	newpoints_add_setting('newpoints_income_pmsent', 'income', 'Per PM Sent', 'Amount of points received everytime a user sends a private message.', 'text', '1', 9);
-	newpoints_add_setting('newpoints_income_perrate', 'income', 'Per Rate', 'Amount of points received everytime a user rates a thread.', 'text', '0.05', 9);
-	newpoints_add_setting('newpoints_income_pageview', 'income', 'Per Page View', 'Amount of points received everytime a user views a page.', 'text', '0', 10);
-	newpoints_add_setting('newpoints_income_visit', 'income', 'Per Visit', 'Amount of points received everytime a user visits the forum. ("visits" = new MyBB session (expires after 15 minutes))', 'text', '0.1', 11);
-	newpoints_add_setting('newpoints_income_referral', 'income', 'Per Referral', 'Amount of points received everytime a user is referred. (the referred user is who receives the points)', 'text', '5', 12);
+	newpoints_add_setting('newpoints_income_newpost', 'income', 'ارسال جدید', 'مقدار امتیازی که برای ارسال جدید داده شود.', 'text', '10', 1);
+	newpoints_add_setting('newpoints_income_newthread', 'income', 'موضوع جدید', 'مقدار امتیازی که برای موضوع جدید داده شود.', 'text', '20', 2);
+	newpoints_add_setting('newpoints_income_newpoll', 'income', 'نظرسنجی جدید', 'مقدار امتیازی که برای نظرسنجی جدید داده شود.', 'text', '15', 3);
+	newpoints_add_setting('newpoints_income_perchar', 'income', 'هر کاراکتر', 'مقدار امتیازی که برای هر حرف داده شود (در پاسخ یا موضوع جدید)', 'text', '0.01', 4);
+	newpoints_add_setting('newpoints_income_minchar', 'income', 'حداقل کاراکتر', 'حداقل کاراکتری که نیاز است تا بعداز آن به هر کاراکتر امتیاز تعلق گیرد.', 'text', '15', 5);
+	newpoints_add_setting('newpoints_income_newreg', 'income', 'عضویت جدید', 'مقدار امتیازی که برای عضویت داده شود.', 'text', '50', 6);
+	newpoints_add_setting('newpoints_income_pervote', 'income', 'هر رای در نظرسنجی', 'مقدار امتیازی که برای رای‌های دریافت شده توسط کاربران در نظر سنجی‌هایش دریافت کد.', 'text', '5', 7);
+	newpoints_add_setting('newpoints_income_perreply', 'income', 'هر پاسخ', 'مقدار امتیازی که سازنده تاپیک در صورت پاسخ به تاپیکش دریافت کند.', 'text', '2', 8);
+	newpoints_add_setting('newpoints_income_pmsent', 'income', 'هر ارسال پیام‌خصوصی', 'مقدار امتیازی که برای ارسال پیام خصوصی دریافت کند.', 'text', '1', 9);
+	newpoints_add_setting('newpoints_income_perrate', 'income', 'هر رتبه', 'مقدار امتیازی که کاربر برای رتبه‌دادن به موضوعات دریافت کند.', 'text', '0.05', 9);
+	newpoints_add_setting('newpoints_income_pageview', 'income', 'هر بازدید از صفحه', 'مقدار امتیازی که یک کاربر برای بازدید از یک صفحه دریافت کند.', 'text', '0', 10);
+	newpoints_add_setting('newpoints_income_visit', 'income', 'هر بازدید', 'مقدار امتیازی که کاربر بعد از هر بازدید دریافت کند. ("بازدید‌کردن" = یک جلسه‌ی جدید در مای‌بی‌بی (که بعد از ۱۵ دقیقه تمام می‌شود))', 'text', '0.1', 11);
+	newpoints_add_setting('newpoints_income_referral', 'income', 'هر معرفی', 'مقدار امتیازی که یک کاربر بعد از هر معرفی می‌گیرد. (کاربر معرفی شده کسی است که امتیاز را کسب می‌کند)', 'text', '5', 12);
 	
 	//rebuild_settings();
 	
