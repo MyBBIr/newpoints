@@ -296,6 +296,12 @@ function newpoints_addpoints($uid, $points, $forumrate = 1, $grouprate = 1, $iss
 	if(!isset($newpoints_shutdown))
 	{
 		$newpoints_shutdown = true;
+	}
+	
+	static $newpoints_shutdown;
+	if(!isset($newpoints_shutdown))
+	{
+		$newpoints_shutdown = true;
 		add_shutdown('newpoints_update_addpoints');
 	}
 }
